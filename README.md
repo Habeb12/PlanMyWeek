@@ -14,7 +14,7 @@ Daten lokal auf dem Gerät zu speichern (SQLite).
 
 ## Hauptfunktionen
 
-1. *Aktivitäten hinzufügen und bearbeiten:*   Titel, Beschreibung, Datum, Uhrzeit und Standort festlegen.  
+1. **Aktivitäten hinzufügen und bearbeiten:**   Titel, Beschreibung, Datum, Uhrzeit und Standort festlegen.  
    
 2. **Details anzeigen:** Vollständige Informationen zu jeder Aktivität abrufen.  
    
