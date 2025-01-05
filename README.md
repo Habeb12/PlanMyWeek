@@ -14,9 +14,18 @@ Daten lokal auf dem Gerät zu speichern (SQLite).
 
 ## Hauptfunktionen
 
- 1- Aktivitäten hinzufügen und bearbeiten: Titel, Beschreibung, Datum, Uhrzeit und Standort festlegen.
-2- Details anzeigen: Vollständige Informationen zu jeder Aktivität abrufen.
-3- Standort festlegen: Kartenansicht zur Standortauswahl nutzen.
-4- Aktivitäten löschen: Einzelne Aktivitäten können entfernt werden.
-5- Status aktualisieren: Aktivitäten als „erledigt“ markieren.
+1. **Aktivitäten hinzufügen und bearbeiten:**  
+   Titel, Beschreibung, Datum, Uhrzeit und Standort festlegen.  
+   
+2. **Details anzeigen:**  
+   Vollständige Informationen zu jeder Aktivität abrufen.  
+   
+3. **Standort festlegen:**  
+   Kartenansicht zur Standortauswahl nutzen.  
+   
+4. **Aktivitäten löschen:**  
+   Einzelne Aktivitäten können entfernt werden.  
+   
+5. **Status aktualisieren:**  
+   Aktivitäten als „erledigt“ markieren.
 
