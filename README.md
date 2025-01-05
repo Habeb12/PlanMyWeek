@@ -8,4 +8,4 @@ Daten lokal auf dem Gerät zu speichern (SQLite).
 
 ## 📱 App-Logo
 
-![Plan My Week Logo](https://github.com/Habeb12/PlanMyWeek/blob/master/WhatsApp%20Bild%2005.01.2025%20bei%2016.47.24.jpeg)
+![Plan My Week Logo](https://WhatsApp Image 2025-01-05 at 16.47.24.jpeg)
