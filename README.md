@@ -27,8 +27,8 @@ Daten lokal auf dem Gerät zu speichern (SQLite).
 <img src="https://github.com/Habeb12/PlanMyWeek/blob/master/Bild%202.jpeg" alt="Weiterer Screenshot" width="300"/>                <img src="https://github.com/Habeb12/PlanMyWeek/blob/master/Bild%203.jpeg" alt="Zusätzlicher Screenshot" width="300"/>
 
 ## Installation
-Klonen Sie dieses Repository.
-Öffnen Sie Android Studio.
-Öffnen Sie dieses Projekt.
-Entwickeln und ausführen.
+1. Klonen Sie dieses Repository.
+2. Öffnen Sie Android Studio.
+3. Öffnen Sie dieses Projekt.
+4. Entwickeln und ausführen.
 
