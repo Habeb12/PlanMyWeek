@@ -25,6 +25,8 @@ Daten lokal auf dem Gerät zu speichern (SQLite).
 5. **Status aktualisieren:** Aktivitäten als „erledigt“ markieren.
 
 
-![Weiterer Screenshot](https://github.com/Habeb12/PlanMyWeek/blob/master/Bild%202.jpeg)
+## 📱 Weiterer Screenshot
+
+<img src="https://github.com/Habeb12/PlanMyWeek/blob/master/Bild%202.jpeg" alt="Weiterer Screenshot" width="300"/>
 
 
