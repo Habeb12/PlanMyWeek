@@ -1,4 +1,4 @@
-PlanMyWeek ist eine mobile Android-App, die es Nutzern ermöglicht:
+# PlanMyWeek ist eine mobile Android-App, die es Nutzern ermöglicht:
 
 Aktivitäten zu erstellen, bearbeiten, löschen und anzeigen.
 Standorte für Aktivitäten über eine interaktive Kartenansicht auszuwählen.
