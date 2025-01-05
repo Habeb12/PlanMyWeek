@@ -1,0 +1,181 @@
+<ScrollView
+    android:id="@+id/edit_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Views.EditActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title Label -->
+        <TextView
+            android:id="@+id/text_view_activity_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Title:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/text_view_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_activity_label"
+            android:layout_marginTop="8dp"
+            android:hint="Update title" />
+
+        <!-- Category Label and Spinner -->
+        <TextView
+            android:id="@+id/text_view_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_activity"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Category:"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_category"
+            android:layout_marginTop="8dp" />
+
+        <!-- Priority Label and Spinner -->
+        <TextView
+            android:id="@+id/text_view_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/category_spinner"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Priority:"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/priority_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_priority"
+            android:layout_marginTop="8dp" />
+
+        <!-- Due Date and Time -->
+        <TextView
+            android:id="@+id/text_view_due_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/priority_spinner"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Due Date:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_select_due_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_due_date"
+            android:layout_marginTop="8dp"
+            android:text="Select Date" />
+
+        <TextView
+            android:id="@+id/selected_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_select_due_date"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_view_due_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selected_date_text_view"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Due Time:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_select_due_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_due_time"
+            android:layout_marginTop="8dp"
+            android:text="Select Time" />
+
+        <TextView
+            android:id="@+id/selected_time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_select_due_time"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textSize="16sp" />
+
+        <!-- Description Label and Input -->
+        <TextView
+            android:id="@+id/text_view_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selected_time_text_view"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Description:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/notes_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_notes"
+            android:layout_marginTop="8dp"
+            android:hint="Update description" />
+
+        <!-- Location Section -->
+        <TextView
+            android:id="@+id/text_view_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notes_edit_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:text="Location:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_select_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_location"
+            android:layout_marginTop="8dp"
+            android:text="Select Location" />
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/location_map"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/button_select_location"
+            android:layout_marginTop="8dp" />
+
+        <!-- Edit Activity Button -->
+        <Button
+            android:id="@+id/button_edit_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location_map"
+            android:layout_marginTop="16dp"
+            android:text="Edit Activity" />
+
+    </LinearLayout>
+
+</ScrollView>
