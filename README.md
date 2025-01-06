@@ -24,7 +24,8 @@ Daten lokal auf dem Gerät zu speichern (SQLite).
    
 5. **Status aktualisieren:** Aktivitäten als „erledigt“ markieren.
 
-![Bild 2](images/Bild%202.jpeg)
+<img src="images/Bild%202.jpeg" alt="Bild 2" width="300"/>        <img src="images/Bild%203.jpeg" alt="Bild 3" width="300"/>
+
 
 ## Installation
 1. Klonen Sie dieses Repository.
