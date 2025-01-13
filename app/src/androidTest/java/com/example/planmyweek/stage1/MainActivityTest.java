@@ -25,7 +25,7 @@ import org.hamcrest.Matcher;
 
 import java.util.List;
 
-class MyViewAction {
+ class MyViewAction {
     public static ViewAction clickChildViewWithId(final int id) {
         return new ViewAction() {
             @Override
