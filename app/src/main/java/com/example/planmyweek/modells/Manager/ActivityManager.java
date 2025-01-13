@@ -1,9 +1,9 @@
-package com.example.planmyweek.Manager;
+package com.example.planmyweek.modells.Manager;
 
 import android.content.Context;
 
-import com.example.planmyweek.DB.DatabaseManager;
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.modells.DB.DatabaseManager;
+import com.example.planmyweek.modells.Comman.Activity;
 
 import java.util.List;
 

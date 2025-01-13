@@ -3,8 +3,8 @@ package com.example.planmyweek.stage2;
 import static org.mockito.Mockito.*;
 
 import com.example.planmyweek.Controller.ActivityController;
-import com.example.planmyweek.Manager.ActivityManager;
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.modells.Manager.ActivityManager;
+import com.example.planmyweek.modells.Comman.Activity;
 
 import org.junit.Before;
 import org.junit.Test;

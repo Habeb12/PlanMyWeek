@@ -1,4 +1,4 @@
-package com.example.planmyweek.DB;
+package com.example.planmyweek.modells.DB;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -7,8 +7,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.planmyweek.Comman.Activity;
-import com.example.planmyweek.Comman.ActivityContract;
+import com.example.planmyweek.modells.Comman.Activity;
+import com.example.planmyweek.modells.Comman.ActivityContract;
 
 import java.util.ArrayList;
 import java.util.List;

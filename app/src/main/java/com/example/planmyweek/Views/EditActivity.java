@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.modells.Comman.Activity;
 import com.example.planmyweek.Controller.ActivityController;
 import com.example.planmyweek.R;
 

@@ -2,8 +2,8 @@ package com.example.planmyweek.Controller;
 
 import android.content.Context;
 
-import com.example.planmyweek.Manager.ActivityManager;
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.modells.Manager.ActivityManager;
+import com.example.planmyweek.modells.Comman.Activity;
 
 import java.util.List;
 

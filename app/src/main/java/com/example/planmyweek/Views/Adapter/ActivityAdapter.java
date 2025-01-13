@@ -1,4 +1,4 @@
-package com.example.planmyweek.Adapter;
+package com.example.planmyweek.Views.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

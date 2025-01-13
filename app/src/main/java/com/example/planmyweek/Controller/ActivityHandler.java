@@ -1,6 +1,6 @@
 package com.example.planmyweek.Controller;
 
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.modells.Comman.Activity;
 
 import java.util.List;
 

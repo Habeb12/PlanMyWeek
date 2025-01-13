@@ -4,9 +4,9 @@ import android.content.Context;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.example.planmyweek.Comman.Activity;
-import com.example.planmyweek.Comman.ActivityContract;
-import com.example.planmyweek.DB.DatabaseManager;
+import com.example.planmyweek.modells.Comman.Activity;
+import com.example.planmyweek.modells.Comman.ActivityContract;
+import com.example.planmyweek.modells.DB.DatabaseManager;
 
 import org.junit.After;
 import org.junit.Before;

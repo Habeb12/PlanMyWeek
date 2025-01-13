@@ -8,13 +8,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
-import com.example.planmyweek.Adapter.ActivityAdapter;
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.Views.Adapter.ActivityAdapter;
+import com.example.planmyweek.modells.Comman.Activity;
 import com.example.planmyweek.Controller.ActivityController;
 import com.example.planmyweek.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
-import org.osmdroid.library.BuildConfig;
 
 import java.util.ArrayList;
 import java.util.List;

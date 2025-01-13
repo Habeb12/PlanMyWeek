@@ -1,6 +1,6 @@
-package com.example.planmyweek.Manager;
+package com.example.planmyweek.modells.Manager;
 
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.modells.Comman.Activity;
 
 import java.util.List;
 

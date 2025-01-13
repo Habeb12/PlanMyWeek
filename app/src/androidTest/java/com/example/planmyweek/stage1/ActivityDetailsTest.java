@@ -8,7 +8,7 @@ import androidx.test.espresso.contrib.RecyclerViewActions;
 import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.rule.ActivityTestRule;
 
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.modells.Comman.Activity;
 import com.example.planmyweek.Controller.ActivityController;
 import com.example.planmyweek.R;
 import com.example.planmyweek.Views.MainActivity;

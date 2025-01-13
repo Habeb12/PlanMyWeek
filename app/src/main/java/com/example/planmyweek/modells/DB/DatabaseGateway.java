@@ -1,7 +1,7 @@
-package com.example.planmyweek.DB;
+package com.example.planmyweek.modells.DB;
 
 
-import com.example.planmyweek.Comman.Activity;
+import com.example.planmyweek.modells.Comman.Activity;
 import java.util.List;
 
 public interface DatabaseGateway {

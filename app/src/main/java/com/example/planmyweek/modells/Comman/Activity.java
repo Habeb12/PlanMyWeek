@@ -1,4 +1,4 @@
-package com.example.planmyweek.Comman;
+package com.example.planmyweek.modells.Comman;
 
 public class Activity {
     private int id;

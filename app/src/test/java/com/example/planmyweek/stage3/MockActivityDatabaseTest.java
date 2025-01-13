@@ -3,8 +3,8 @@ package com.example.planmyweek.stage3;
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
 
-import com.example.planmyweek.Comman.Activity;
-import com.example.planmyweek.DB.DatabaseManager;
+import com.example.planmyweek.modells.Comman.Activity;
+import com.example.planmyweek.modells.DB.DatabaseManager;
 
 import org.junit.Before;
 import org.junit.Test;
